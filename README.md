@@ -1,81 +1,49 @@
-# CNN-Tutorial
+# Tutorial: Testing Data Analysis with Machine Learning
 
-## Install on Linux
+Jupyter Notebooks for learning the fundamentals of machine learning in test data analysis — aimed at beginners in Python programming.
 
-Clone the repo
+## Contents
+
+| Notebook | Domain | Topic |
+|----------|--------|-------|
+| `audio_classification.ipynb` | Audio | Transformer embeddings + SVM classification on ESC-50 |
+| `hf_cifar100.ipynb` | Image | Vision Transformer on CIFAR-100 with embedding visualization |
+| `f1_embedding_generation.ipynb` | Time Series | F1 telemetry embeddings with Chronos-2 |
+
+## Prerequisites
+
+- Python 3.12
+- 16 GB RAM recommended
+- Internet access for initial download of datasets and models
+
+## Installation
+
+Extract the zip archive and install the dependencies:
+
+### Linux
 
 ```bash
-git clone https://github.com/Renumics/cnn-tutorial
-```
-
-Change the directory
-
-```bash
-cd cnn-tutorial
-```
-
-Create virtual env
-
-```bash
+unzip tutorial-testing-data-analysis.zip
+cd tutorial-testing-data-analysis
 python -m venv .venv
-```
-
-Active the virtual env
-
-```bash
 source .venv/bin/activate
-```
-
-Install dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
-Start Jupyter Lab
+### Windows
 
 ```bash
-jupyter lab
-```
-
-or use your preferred code editor!
-
-## Install on Windows
-
-Clone the repo
-
-```bash
-git clone https://github.com/Renumics/cnn-tutorial
-```
-
-Change the directory
-
-```bash
-cd cnn-tutorial
-```
-
-Create virtual env
-
-```bash
+unzip tutorial-testing-data-analysis.zip
+cd tutorial-testing-data-analysis
 python -m venv .venv
-```
-
-Active the virtual env
-
-```bash
 .\.venv\Scripts\Activate
-```
-
-Install dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
-Start Jupyter Lab
+## Getting Started
 
 ```bash
 jupyter lab
 ```
 
-or use your preferred code editor!
+Or use any editor with Jupyter support (VS Code, Cursor, etc.).
