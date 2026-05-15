@@ -1,0 +1,10 @@
+chronos-forecasting
+datasets
+ipykernel
+matplotlib
+numpy
+renumics-spotlight
+scikit-learn
+torch
+transformers
+umap-learn
