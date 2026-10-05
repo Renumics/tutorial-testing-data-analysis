@@ -6,6 +6,6 @@ numpy==2.4.4
 renumics-spotlight==1.8.2
 scikit-learn==1.8.0
 torch==2.13
-transformers==5.3.0
+transformers==5.5.0
 umap-learn==0.5.12
 torchcodec==0.12.0
